@@ -1,4 +1,4 @@
-package com.leonardoteixeira.pdfextractor.entities;
+package com.leonardoteixeira.pdfextractor.identity.entity;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotEmpty;
