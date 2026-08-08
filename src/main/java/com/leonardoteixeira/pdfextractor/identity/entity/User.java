@@ -1,5 +1,6 @@
 package com.leonardoteixeira.pdfextractor.identity.entity;
 
+import com.leonardoteixeira.pdfextractor.identity.dto.UserRequestDTO;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
@@ -11,7 +12,6 @@ import java.util.UUID;
 @Entity
 @Getter
 @Setter
-@AllArgsConstructor
 @NoArgsConstructor
 @Table(name = "users")
 public class User {
